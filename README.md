@@ -1,8 +1,8 @@
 # Sentence embedding model for Korean language
 
-This work was done Onboarding program of Ahancompany corporation ltd.,
+Works were done while in Onboarding program of Ahancompany corporation ltd.,
 
-You can find fine-tuned model in [Huggingface](https://huggingface.co/sorryhyun/sentence-embedding-klue-large)
+You can find the fine-tuned model in [Huggingface](https://huggingface.co/sorryhyun/sentence-embedding-klue-large)
 
 I wrote all detail in SFT_sent_emb.ipynb. V100 Colab GPU was used for training.
 
@@ -15,5 +15,7 @@ I wrote all detail in SFT_sent_emb.ipynb. V100 Colab GPU was used for training.
 | LMkor | Electra-base | 70.98(Finetuned) | 43.09 |
 | deliciouscat | DeBERTa-base | (Finetuned) | 67.65 |
 | BM-K    | Roberta-base | 82.93 | **85.77**(Finetuned) |
-| Klue    | Roberta-large | **86.71**(Finetuned) | 71.70 |
-| Klue (Hyperparameter searched) | Roberta-large | 86.21(Finetuned) | 75.54 |
+| Klue*    | Roberta-large | **86.71**(Finetuned) | 71.70 |
+| Klue* (Hyperparameter searched) | Roberta-large | 86.21(Finetuned) | 75.54 |
+
+Asterisks denote 'Ours'
